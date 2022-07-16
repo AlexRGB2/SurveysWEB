@@ -1,0 +1,125 @@
+body {
+  background-color: #e2f7b4;
+}
+
+#titulo h1 {
+  text-align: center;
+  font-size: 20px;
+  background-color: #8bc24b;
+  color: aliceblue;
+  padding: 1%;
+  margin-top: -10px;
+  margin-left: -1%;
+  margin-right: -1%;
+  font-family: Nunito;
+}
+#subtitulo {
+  color: #1f681f;
+  font-family: Nunito;
+  font-size: 40px;
+  margin-left: 2%;
+  margin-top: -60px;
+  float: left;
+  clear: both;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20%;
+}
+nav,
+li,
+ul,
+a {
+  border: white 1px solid;
+  background-color: white;
+}
+nav {
+  border: gray 1px solid;
+  border-radius: 20px;
+}
+li {
+  list-style: none;
+  display: inline;
+}
+#barra {
+  padding: 4%;
+  margin-left: 50%;
+  margin-top: -60px;
+}
+#imagenes {
+  margin-left: 2%;
+  clear: left;
+  float: left;
+  width: 800px;
+}
+#imagenes img {
+  margin-top: 2%;
+  width: 90%;
+}
+#calendario img {
+  margin-top: 13%;
+  margin-left: 10%;
+  width: 25%;
+  border-radius: 40px;
+}
+#formulario {
+  margin-top: 10%;
+  margin-left: 20%;
+  padding: 2%;
+}
+#formulario input {
+  margin-top: 10px;
+  width: 300px;
+  padding: 10px 10px;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  font-size: 20px;
+}
+#formulario a {
+  margin-left: 80px;
+}
+#link input {
+  margin-top: 20px;
+  background-color: #1d9b1d;
+  color: white;
+  padding: 15px 5px;
+  width: 150px;
+  font-size: 20px;
+  font-family: Nunito;
+  border: white 4px solid;
+}
+#login {
+    text-align: center;
+}
+#login a {
+    margin-left: 10px;
+}
+#login input{
+    margin-top: 10px;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 20px 20px;
+}
+#log input {
+    margin-top: 20px;
+    background-color: #1d9b1d;
+    color: white;
+    padding: 15px 5px;
+    width: 150px;
+    font-size: 20px;
+    font-family: Nunito;
+    border: white 4px solid;
+    border-radius: 15px;
+}
+#login h2 {
+    font-size: 50px;
+    font-family: Nunito;
+    color: #1f681f;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <link rel="stylesheet" href="estilos.css" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <!--Titulo de la Pagina-->
+    <div id="titulo">
+      <h1>Surveys</h1>
+    </div>
+    <div id="subtitulo">
+      <h2>Registro</h2>
+    </div>
+    <form id="formulario">
+      <div>
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Nombre Completo"
+          required
+        />
+      </div>
+      <div>
+        <input
+          type="email"
+          name="correo"
+          placeholder="Correo Electronico"
+          required
+        />
+      </div>
+      <div>
+        <input
+          type="number"
+          name="matricula"
+          placeholder="Matricula"
+          required
+        />
+      </div>
+      <div>
+        <input type="text" name="usuario" placeholder="Usuario" required />
+      </div>
+      <div>
+        <input type="password" placeholder="Contraseña" required />
+      </div>
+      <a href="/Front/login.html" id="link">
+        <input type="button" id="link" value="Registrar" />
+      </a>
+    </form>
+  </body>
+</html>

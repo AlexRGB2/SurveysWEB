@@ -1,0 +1,205 @@
+title{
+    background-color: #8bc24b;
+    color: #ffffff;
+}
+
+header{
+    background-color: #8cc14b;
+    height: 25;
+    color: #ffffff;
+    text-align: center;
+    color: #eeffc9;
+    font-style: bold;
+    font-family: calibri;
+    padding: 2px;
+}
+
+body{
+    background-color: #e2f7b4;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1{
+    position: relative;
+    color: #1d6921;
+    font-style: bold;
+    font-family: Calibri;
+    font-size: 46px;
+    left: 46px;
+    font-weight: 800;
+    width: fit-content;
+}
+
+.Iconos{
+    float: right;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 1%;
+    top: -100px;
+    right: 15px;
+}
+
+.Pestañas{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    margin-left: -2px;
+    margin-right: -2px;
+    border: 1px solid #2a321a;
+    text-decoration: none;
+    color: #80808e;
+    background-color: #ffffff;
+    font-style: bold;
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+    left: 80px;
+}
+
+a.Pestañas:hover{
+    padding-top: 8px;
+    background-color: #8cc14b;
+    color: #2a321a;
+}
+
+#PestañaSel{
+    background-color: #176f1b;
+    color: #2a321a;
+}
+
+.Subtitulos{
+    color: #3b9940;
+    font-style: bold;
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    left: 66px;
+    width: fit-content;
+}
+
+#Datos_Enc{
+    position: relative;
+    display: block;
+    color: #80808e;
+    font-style: bold;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: 400;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #bdc6b1;
+    padding: 8px;
+    left: 50px;
+    background-color: transparent;
+    text-align: center;
+    width: 350;
+    left: 20%;
+    height: fit-content;
+}
+
+.Preguntas{
+    position: relative;
+    display: block;
+    top: -135px;
+    left: 820px;
+    color: #80808e;
+    font-style: bold;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: 400;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.Botones{
+    position: relative;
+    color: #ffffff;
+    font-style: bold;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    background-color: #1d6921;
+    border: 1px solid #ffffff;
+    padding: 8px;
+    width: 80px;
+    left: 28%;
+    text-decoration: none;
+    display: block;
+    top: -100px;
+    margin-bottom: 1px;
+}
+
+.fitcont{
+    height: fit-content;
+    width: fit-content;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.BloqueEnc{
+    position: relative;
+    left: 3.5%;
+    width: 1200px;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+.BtnEnc{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 11px;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    border: 1px solid #2a321a;
+}
+
+#BtnEncuestas{
+    color: #ffffff;
+    font-style: bold;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    background-color: #1d6921;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 3px;
+    height: 37px;
+}
+
+.BtnEncCen{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 11px;
+    text-decoration: none;
+    margin-left: 143px;
+    margin-right: 143px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    border: 1px solid #2a321a;
+}
