@@ -137,6 +137,29 @@ a.Pestañas:hover{
     display: block;
     top: -100px;
     margin-bottom: 1px;
+    margin-top: 150px;
+    margin-left: -30px;
+}
+
+.Botones1{
+    position: relative;
+    color: #ffffff;
+    font-style: bold;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    background-color: #1d6921;
+    border: 1px solid #ffffff;
+    padding: 8px;
+    width: 80px;
+    left: 28%;
+    text-decoration: none;
+    display: block;
+    top: -100px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    margin-left: -30px;
 }
 
 .fitcont{
