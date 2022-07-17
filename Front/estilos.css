@@ -4,7 +4,7 @@ body {
 
 #titulo h1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   background-color: #8bc24b;
   color: aliceblue;
   padding: 1%;
@@ -17,7 +17,15 @@ body {
   color: #1f681f;
   font-family: Nunito;
   font-size: 40px;
-  margin-left: 10%;
+  margin-top: -60px;
+  text-align: center;
+  clear: both;
+  margin-top: 4%;
+}
+#subtitulo1 {
+  color: #1f681f;
+  font-family: Nunito;
+  font-size: 40px;
   margin-top: -60px;
   float: left;
   clear: both;
@@ -25,6 +33,9 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+#barra a {
   margin-left: 20%;
 }
 nav,
@@ -46,6 +57,7 @@ li {
   padding: 4%;
   margin-left: 50%;
   margin-top: -60px;
+  font-family: Nunito;
 }
 #imagenes {
   margin-left: 2%;
@@ -63,14 +75,20 @@ li {
   width: 25%;
   border-radius: 40px;
 }
+#iconoR {
+ margin-left: 48%;
+ margin-top: -1%;
+ margin-bottom: 20px;
+}
+
 #formulario {
-  margin-top: 10%;
-  margin-left: 20%;
+  margin-top: -3%;
+  text-align: center;
   padding: 2%;
 }
 #formulario input {
   margin-top: 10px;
-  width: 300px;
+  width: 400px;
   padding: 10px 10px;
   text-align: center;
   background-color: transparent;
@@ -80,11 +98,9 @@ li {
   border-right: transparent;
   font-size: 20px;
 }
-#formulario a {
-  margin-left: 80px;
-}
+
 #link input {
-  margin-top: 20px;
+  margin-top: 30px;
   background-color: #1d9b1d;
   color: white;
   padding: 15px 5px;
@@ -93,33 +109,35 @@ li {
   font-family: Nunito;
   border: white 4px solid;
 }
+#link {
+  text-align: center;
+}
 #login {
-    text-align: center;
+  text-align: center;
 }
-#login a {
-    margin-left: 10px;
+#login input {
+  margin-top: 10px;
+  background-color: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  padding: 20px 20px;
+  width: 200px;
 }
-#login input{
-    margin-top: 10px;
-    background-color: transparent;
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-    padding: 20px 20px;
-}
+
 #log input {
-    margin-top: 20px;
-    background-color: #1d9b1d;
-    color: white;
-    padding: 15px 5px;
-    width: 150px;
-    font-size: 20px;
-    font-family: Nunito;
-    border: white 4px solid;
-    border-radius: 15px;
+  margin-top: 20px;
+  background-color: #1d9b1d;
+  color: white;
+  padding: 15px 5px;
+  width: 150px;
+  font-size: 20px;
+  font-family: Nunito;
+  border: white 4px solid;
+  border-radius: 15px;
 }
 #login h2 {
-    font-size: 50px;
-    font-family: Nunito;
-    color: #1f681f;
+  font-size: 50px;
+  font-family: Nunito;
+  color: #1f681f;
 }
