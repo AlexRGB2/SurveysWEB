@@ -81,4 +81,7 @@ public class EncuestaModel {
         this.pregunta = pregunta;
     }
 
+    public EncuestaModel() {
+    }
+    
 }
